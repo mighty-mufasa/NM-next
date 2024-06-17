@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--bg-80-b);
+  border-radius: 10px;
+  padding: 5px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 01bb2b1 (deploy)
+  div {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+<<<<<<< HEAD
+=======
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+>>>>>>> 01bb2b1 (deploy)
+  }
+}
+
+.active {
+  background-color: var(--bg-active-b);
+<<<<<<< HEAD
+}
+=======
+  animation: appearance 2s forwards;
+}
+
+.skeletonPc {
+  width: 363px;
+  height: 42px;
+  opacity: 0.6;
+}
+
+@keyframes appearance {
+  100% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .skeletonPc {
+    max-width: 170px;
+    width: 100%;
+  }
+}
+>>>>>>> 01bb2b1 (deploy)

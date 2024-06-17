@@ -1,0 +1,174 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+<<<<<<< HEAD
+=======
+  position: relative;
+
+  .backgroundImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 130px;
+    right: -270px;
+    max-width: 610px;
+    max-height: 610px;
+    z-index: -1;
+    background-image: url('/assets/backDetails/backgroundImage1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+>>>>>>> 01bb2b1 (deploy)
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .select {
+      max-width: 205px;
+      width: 100%;
+    }
+<<<<<<< HEAD
+=======
+    .mobileSelect {
+      max-width: 170px;
+      width: 100%;
+      display: none;
+    }
+>>>>>>> 01bb2b1 (deploy)
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+<<<<<<< HEAD
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+=======
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 40px;
+  }
+}
+.message {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+  button {
+      background: linear-gradient(
+        152.48deg,
+        rgb(137, 198, 255) -36.244%,
+        rgb(54, 51, 208) 71.781%
+      );
+  }
+}
+
+.loadingWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+@media (max-width: 1355px) {
+  .wrapper {
+    .backgroundImage {
+      right: -100px;
+      bottom: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .wrapper {
+    .cards {
+      row-gap: 10px;
+    }
+    .backgroundImage {
+      right: -150px;
+      top: -180px;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrapper {
+    .header {
+      .sortingBar {
+        display: none;
+      }
+      .mobileSelect {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .wrapper {
+    .header {
+      .select,
+      .mobileSelect {
+        font-size: 14px;
+      }
+    }
+    .btnMore {
+      button {
+        font-size: 14px;
+        padding: 6px 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    .header {
+      .mobileSelect {
+        max-width: 150px;
+      }
+      .select,
+      .mobileSelect {
+        font-size: 12px;
+        padding: 6px 0;
+      }
+    }
+  }
+  .message {
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    .header {
+      gap: 20px;
+      .mobileSelect {
+        max-width: 150px;
+      }
+      .select {
+        max-width: 180px;
+      }
+    }
+>>>>>>> 01bb2b1 (deploy)
+  }
+}

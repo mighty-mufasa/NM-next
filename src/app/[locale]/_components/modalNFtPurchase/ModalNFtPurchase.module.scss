@@ -1,0 +1,92 @@
+.dialogContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 448px !important;
+  width: 100%;
+  gap: 20px;
+  h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+  }
+  h2 {
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 16px;
+    }
+    h4 {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 14px;
+      color: var(--text-60-b);
+    }
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  h4 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    color: var(--text-60-b);
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+    .statsItem {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 100%;
+
+      div:first-child {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+    }
+  }
+  .total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    .button {
+      width: 100%;
+      background: linear-gradient(
+        152.48deg,
+        rgb(137, 198, 255) -36.244%,
+        rgb(54, 51, 208) 71.781%
+      );
+    }
+  }
+}
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid var(--bg-50-b);
+  border-radius: 15px;
+
+  div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+  }
+}

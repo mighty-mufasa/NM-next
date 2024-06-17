@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 280px;
+  height: 454px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: var(--text-90-b);
+  padding: 30px 20px 0 20px;
+  cursor: pointer;
+
+  p:first-child {
+    color: var(--text-100-w);
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  p:last-child {
+    color: var(--text-100-w);
+    padding-top: 16px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}

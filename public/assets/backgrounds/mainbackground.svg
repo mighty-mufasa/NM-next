@@ -1,0 +1,42 @@
+<svg width="1920.000000" height="2134.000000" viewBox="0 0 1920 2134" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_6">
+			<rect id="Главная" width="1920.000000" height="2134.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<radialGradient gradientTransform="translate(149 519) rotate(112.41) scale(896.644 896.644)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_4_289_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#725BDA"/>
+			<stop offset="1.000000" stop-color="#06132D" stop-opacity="0.000000"/>
+		</radialGradient>
+		<radialGradient gradientTransform="translate(1547 1225) rotate(112.41) scale(896.644 896.644)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_4_290_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#725BDA"/>
+			<stop offset="1.000000" stop-color="#06132D" stop-opacity="0.000000"/>
+		</radialGradient>
+		<radialGradient gradientTransform="translate(135 1814) rotate(112.41) scale(896.644 896.644)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_4_291_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#725BDA"/>
+			<stop offset="1.000000" stop-color="#06132D" stop-opacity="0.000000"/>
+		</radialGradient>
+		<radialGradient gradientTransform="translate(1340 1659) rotate(112.41) scale(1084.3 1084.3)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_4_294_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#B95BDA"/>
+			<stop offset="1.000000" stop-color="#06132D" stop-opacity="0.000000"/>
+		</radialGradient>
+	</defs>
+	<rect id="Главная" width="1920.000000" height="2134.000000" fill="#000000" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip1_6)">
+		<g opacity="0.500000">
+			<circle id="Ellipse 9" cx="149.000000" cy="519.000000" r="1185.000000" fill="url(#paint_radial_4_289_0)" fill-opacity="0.400000"/>
+		</g>
+		<g opacity="0.500000">
+			<circle id="Ellipse 10" cx="1547.000000" cy="1225.000000" r="1185.000000" fill="url(#paint_radial_4_290_0)" fill-opacity="0.400000"/>
+		</g>
+		<g opacity="0.500000">
+			<circle id="Ellipse 11" cx="135.000000" cy="1814.000000" r="1185.000000" fill="url(#paint_radial_4_291_0)" fill-opacity="0.400000"/>
+		</g>
+		<g opacity="0.400000">
+			<circle id="Ellipse 14" cx="1340.000000" cy="1659.000000" r="1433.000000" fill="url(#paint_radial_4_294_0)" fill-opacity="1.000000"/>
+		</g>
+		<path id="Rectangle 82" d="M1204 299L1282 299L1282 388L1204 388C1192.94 388 1184 379.04 1184 368L1184 319C1184 307.95 1192.94 299 1204 299Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

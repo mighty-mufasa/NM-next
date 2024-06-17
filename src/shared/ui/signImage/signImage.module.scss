@@ -1,0 +1,77 @@
+.rightDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 30px 30px 0;
+  background-color: #1d1421;
+  background-image: url('/assets/backDetails/circle.svg'),
+    url('/assets/backDetails/polyhedron.svg');
+  background-position: 100% 5%, calc(100vh - 120vh) 110%;
+  background-repeat: no-repeat;
+  background-size: 75% 75%, 100% 70%;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    p:last-child {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .rightDiv {
+    div {
+      max-width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .rightDiv {
+    background-size: 90% 70%, 100% 60%;
+    border-radius: 30px 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .rightDiv {
+    background-size: 60% 90%, 90% 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rightDiv {
+    div {
+      max-width: 250px;
+      gap: 20px;
+      p:last-child {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .rightDiv {
+    background-size: 60% 100%, 100% 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .rightDiv {
+    div {
+      max-width: 200px;
+      gap: 10px;
+      p:last-child {
+        font-size: 16px;
+      }
+    }
+  }
+}

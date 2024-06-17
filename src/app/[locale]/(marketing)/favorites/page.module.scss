@@ -1,0 +1,25 @@
+.blockInfo {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .blockNft {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  .blockInfo {
+    .blockNft {
+      padding: 0px 0px 0px 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 26px;
+    }
+  }
+}

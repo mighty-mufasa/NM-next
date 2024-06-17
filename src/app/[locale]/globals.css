@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+<<<<<<< HEAD
+=======
+  --text-colored: #5763d0;
+
+>>>>>>> 01bb2b1 (deploy)
+  --text-100-w: #ffffff;
+  --text-100-b: #000000;
+  --text-90-b: #0c0c0c;
+  --text-80-b: #2d2d2d;
+  --text-70-b: #9e9e9e;
+<<<<<<< HEAD
+
+  --text-100-g: #4BB34B;
+
+  --bg-main-gradient: linear-gradient(152.48deg,rgb(137, 198, 255) -36.244%,rgb(54, 51, 208) 71.781%);
+=======
+  --text-60-b: #777777;
+  --text-50-b: #636363;
+
+  --text-100-g: #4bb34b;
+
+  --text-100-r: #b62222;
+
+  --bg-main-gradient: linear-gradient(
+    152.48deg,
+    rgb(137, 198, 255) -36.244%,
+    rgb(54, 51, 208) 71.781%
+  );
+
+  --bg-colored: #5763d0;
+
+>>>>>>> 01bb2b1 (deploy)
+  --bg-100-w: #ffffff;
+  --bg-100-b: #000000;
+  --bg-90-b: #0c0c0c;
+  --bg-80-b: #2d2d2d;
+  --bg-70-b: #9e9e9e;
+<<<<<<< HEAD
+
+  --bg-active-b: #161616;
+=======
+  --bg-50-b: #636363;
+
+  --bg-active-b: #161616;
+
+  --bg-100-blue: #389ef2;
+>>>>>>> 01bb2b1 (deploy)
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  min-width: 100vw;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100vh;
+  overflow-x: hidden;
+<<<<<<< HEAD
+=======
+  overflow-y: auto;
+>>>>>>> 01bb2b1 (deploy)
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+<<<<<<< HEAD
+  background: var(--bg-main);
+  color: var(--fg-main-100);
+=======
+  background-image: url('/assets/backgrounds/mainbackground.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  color: var(--fg-main-100);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+>>>>>>> 01bb2b1 (deploy)
+}
+
+button,
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav,
+ul,
+li {
+  list-style: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

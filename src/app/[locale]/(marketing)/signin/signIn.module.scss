@@ -1,0 +1,187 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 1280px;
+  width: 100%;
+  height: 496px;
+
+  p:first-child {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  p:last-child {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+.signIn {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 50px;
+  padding: 56px 40px;
+  width: 100%;
+  height: 100%;
+  max-width: 544px;
+  background-color: var(--bg-100-b);
+  border-radius: 30px 0px 0px 30px;
+
+  div:first-child {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  .form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 17px;
+    max-width: 400px;
+    width: 100%;
+
+    .checkbox {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 17px;
+    }
+
+    input {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .styleButton {
+      background: linear-gradient(
+        152.48deg,
+        rgb(137, 198, 255) -36.244%,
+        rgb(54, 51, 208) 71.781%
+      );
+    }
+
+    .linkSignUp {
+      display: none;
+      gap: 5px;
+
+      h1 {
+        font-size: 14px;
+        font-weight: 300;
+      }
+      .link {
+        font-size: 14px;
+        font-weight: 300;
+        background: var(--bg-main-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+.signRight {
+  width: 100%;
+  max-height: 496px;
+  height: 100%;
+  max-width: 544px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skeleton {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 17px;
+  max-width: 400px;
+  width: 100%;
+  div {
+    max-width: 400px;
+    width: 100%;
+  }
+  .skeletonButton,
+  .skeletonLabel {
+    max-width: 165px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    flex-direction: column-reverse;
+    margin: 20px 0;
+    height: auto;
+    .signIn {
+      align-items: center;
+      height: auto;
+      border-radius: 0px 0px 30px 30px;
+      padding: 40px 20px;
+      gap: 20px;
+
+      div:first-child {
+        gap: 20px;
+      }
+      .form {
+        gap: 20px;
+        div {
+          gap: 10px;
+        }
+      }
+
+      input::placeholder,
+      input {
+        font-size: 14px;
+      }
+    }
+    .signRight {
+      height: 350px;
+    }
+  }
+}
+
+@media (max-width: 865px) {
+  .signIn {
+    .form {
+      .linkSignUp {
+        display: flex;
+        gap: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    .signRight {
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .wrapper {
+    .signIn {
+      padding: 40px 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    .signRight {
+      height: 250px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    .signRight {
+      height: 200px;
+    }
+  }
+}

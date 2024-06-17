@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  gap: 35px;
+  max-width: 400px;
+  width: 100%;
+  align-items: flex-start;
+  gap: 20px;
+  .myMessageBlock {
+    width: 100%;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    padding: 10px;
+    background-color: #725bda;
+  }
+
+  .otherMessageBlock {
+    width: 100%;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    padding: 10px;
+    background-color: var(--bg-80-b);
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    h2 {
+      font-size: 14px;
+    }
+  }
+}

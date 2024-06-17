@@ -1,0 +1,271 @@
+{
+  "header": {
+<<<<<<< HEAD
+    "inputPlaceholder": "Title or description",
+    "signUpBtn": "Sign Up",
+    "signInBtn": "Sign In"
+  },
+  "Index": {
+    "title": "Hello world!"
+=======
+    "inputPlaceholder": "Name or description",
+    "AbbreviatedPlaceholderName": "Name",
+    "IdentificationButton": "Login and registration",
+    "signUpBtn": "Sign Up",
+    "signInBtn": "Sign In",
+
+    "dropdown": {
+      "burgerMenu": {
+        "favorites": {
+          "title": "Favorites"
+        },
+        "support": {
+          "title": "Support"
+        },
+        "language": {
+          "title": "Language"
+        }
+      },
+      "profileMenu": {
+        "myCollection": {
+          "title": "My Collection"
+        },
+        "exit": {
+          "title": "Exit Profile"
+        }
+      }
+    }
+  },
+  "home": {
+    "topCollections": {
+      "title": "Top Collections",
+      "unauthenticated": {
+        "title": "You must be logged in to display the list of collections!",
+        "btn": "Sign In"
+      },
+      "messages": {
+        "over": "You have displayed the entire list of available collections"
+      },
+      "select": {
+        "marketCap": {
+          "title": "Capitalization",
+          "value": "market_cap"
+        },
+        "numOwners": {
+          "title": "Number of owners",
+          "value": "num_owners"
+        }
+      },
+      "sortingBar": {
+        "1day": "1 day",
+        "7days": "7 days",
+        "30days": "30 days",
+        "allTime": "All time"
+      },
+      "mobileSelect": {
+        "sold": {
+          "title": "Sold",
+          "value": "sold"
+        },
+        "active": {
+          "title": "Active",
+          "value": "active"
+        },
+        "public": {
+          "title": "Public",
+          "value": "public"
+        }
+      },
+      "cards": {
+        "price": "Price",
+        "btn": "Download more"
+      }
+    },
+    "moreAboutNft": {
+      "title": "More About NFT",
+      "slider": {
+        "nftJet": {
+          "title": "🪩 What is NFT JET?",
+          "description": "NFT marketplace operating on The Open Network blockchain. To start using the site, simply log in with your wallet - and that's it. Buy and sell NFTs, upload collections and NFTs to the blockchain, or just admire the creativity of artists and meet members of our community. Too many new unfamiliar words? We have collected answers to all questions about blockchain and NFTs in our FAQ."
+        },
+        "ton": {
+          "title": "💎 What is TON?",
+          "description": "The Open Network - a next-generation web3 blockchain ecosystem created to make life easier. If you're an NFT artist or collector, TON is the perfect tool for you, thanks to its high performance and low transaction fees. And TON is also eco-friendly. TON was conceived and developed by the Durov brothers, the creators of the Telegram messenger. The project is managed and developed by the TON Foundation. This is an independent community of crypto enthusiasts from all over the world. TON has its own currency - Toncoin ($TON)."
+        },
+        "nft": {
+          "title": "🎇 What is NFT?",
+          "description": "NFT (Non-fungible token) - is a non-interchangeable token, a digital contract, a 'marker' indicating who owns the digital work and its creator. There are many ways to apply this technology in practice. For example, artists create digital art and sell it. This is similar to buying stickers or virtual gifts online. Sometimes authors endow their creativity with additional practical value. Some NFTs act as tickets to exclusive clubs, some can be some resource or skin in a game, others act as a document proving the right to ownership of something in the real world."
+        },
+        "wallet": {
+          "title": "👛 What is a crypto wallet?",
+          "description": "Like in real life, a crypto wallet plays the role of a kind of familiar wallet to us: you can store your TON and NFTs in it, and also use it for operations - receiving or sending TON. In addition, wallets are used as a way to interact with projects on the blockchain. For example, to log in to Getgems, mint, buy and sell NFTs, you need to have a wallet. Don't worry, we don't have access to your coins, they are safe. There are many different wallets for TON. We recommend using Tonkeeper or Tonhub."
+        },
+        "howBuy": {
+          "title": "💸 How to buy $TON?",
+          "description": "You can buy $TON coins using a bank card within the Tonkeeper wallet using the services of Mercuryo and NeoCrypto. All purchasing methods are collected on the official website ton.org."
+        },
+        "questions": {
+          "title": "👀 Have questions?",
+          "description": "You can contact us for support, which is located in the chat on our website."
+        }
+      }
+    },
+    "aboutOurService": {
+      "title": "About our service",
+      "description": "NFT JET is a trading platform for non-replaceable tokens (NFT). Buy, sell and discover exclusive digital items.",
+      "btn": "To the catologist"
+    }
+  },
+  "footer": {
+    "description": "NFT JET is a trading platform for non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items for yourself.",
+    "items": {
+      "project": {
+        "title": "Project",
+        "catalogue": "Catalogue",
+        "service": "About Service",
+        "privacyPolicy": "Privacy Policy"
+      },
+      "language": {
+        "title": "Language",
+        "rus": "Русский",
+        "eng": "English"
+      },
+      "contacts": {
+        "title": "Contacts",
+        "tg": "Telegram",
+        "mail": "support@nftjet.io"
+      }
+    }
+  },
+  "signUp": {
+    "header": {
+      "title": "Registration",
+      "description": "Sign up and start trading your NFTs now!"
+    },
+    "input": {
+      "login": "Login",
+      "mail": "Mail",
+      "password": "Password",
+      "repeatPassword": "Repeat password",
+      "promocode": "Promo code"
+    },
+    "buttonSignUp": {
+      "text": "Register"
+    },
+    "linkSignIn": {
+      "text": "Do you have an account?",
+      "button": "Sign in"
+    },
+    "messages": {
+      "success": "You have successfully registered!",
+      "loading": "Creating an account...",
+      "login": {
+        "min": "Login must be at least 4 characters long!",
+        "max": "Login must be no more than 30 characters long!",
+        "valid": "Login must not contain numbers or special characters!"
+      },
+      "email": {
+        "required": "Email is required!",
+        "valid": "Please enter a valid email address!"
+      },
+      "password": {
+        "min": "Password must be at least 4 characters long!",
+        "max": "Password must not exceed 20 characters!",
+        "valid": "Password must contain at least one letter and one number!",
+        "dontMatch": "Passwords do not match!"
+      }
+    }
+  },
+  "signIn": {
+    "header": {
+      "title": "Entrance",
+      "description": "We missed you! Sign in to continue!"
+    },
+    "input": {
+      "login": "Login",
+      "password": "Password",
+      "rememberMe": "Remember me"
+    },
+    "buttonSignIn": {
+      "text": "Authorization"
+    },
+    "linkSignUp": {
+      "text": "Don't have an account?",
+      "button": "Sign up"
+    },
+    "messages": {
+      "login": "The login field is required!",
+      "password": "The password field is required!",
+      "success": "You have successfully authorized!"
+
+    }
+  },
+  "catalogNft": {
+    "volume": "Market volume",
+    "minPrice": "Minimum price",
+    "offer": "Best offer",
+    "owners": "Owners",
+    "description": "Telegram Usernames - NFTs dedicated to telegram avatars. You can make your own unique avatar by purchasing it on NFTJET",
+    "items": "Items",
+    "dateCreated": "Date of creation",
+    "network": "Net",
+
+    "card": {
+      "lastSale": "Last sale: ",
+      "buy": "Buy"
+    },
+
+    "modal": {
+      "title": "Purchase NFT",
+      "price": {
+        "title": "NFT Price",
+        "description": "Service fee"
+      },
+      "networkCommission": {
+        "title": "Network Commission",
+        "description": "Most of it will be returned to your wallet"
+      },
+      "total": "Total:",
+      "button": "Buy"
+    }
+  },
+  "nftCard": {
+    "infoBlock": {
+      "status": "For Sale"
+    },
+    "priceBlock": {
+      "title": "Price",
+      "buyBtn": "Buy",
+      "offerBtn": "Make Offer"
+    },
+    "tabs": {
+      "offers": {
+        "title": "Offers",
+        "price": "Price",
+        "inRub": "In Rubles",
+        "expirationDate": "Expiration Date",
+        "by": "By"
+      },
+      "historyPrice": {
+        "title": "Price History",
+        "volume": "Volume",
+        "avgCost": "Average Cost"
+      }
+    },
+    "ownerBlock": {
+      "collection": "Collection",
+      "owner": "Owner"
+    }
+  },
+  "messenger": {
+    "support": {
+      "name": "Support NFT JET",
+      "message": "Contact us for help, we're on call 24/7"
+    },
+    "welcome": "Select a chat to start messaging!",
+    "chat": {
+      "inputPlaceholder": "Write a message..."
+    }
+>>>>>>> 01bb2b1 (deploy)
+  }
+}

@@ -1,0 +1,46 @@
+.wrapper {
+<<<<<<< HEAD
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1280px;
+    width: 100%;
+  }
+  
+=======
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1280px;
+  width: 100%;
+  .topCollections, .aboutOurService {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .aboutOurServiceMobile {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 864px) {
+  .wrapper {
+    gap: 30px;
+    .topCollections {
+      gap: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrapper {
+    .aboutOurService {
+      display: none;
+    }
+    .aboutOurServiceMobile {
+      display: block;
+    }
+  }
+}
+>>>>>>> 01bb2b1 (deploy)

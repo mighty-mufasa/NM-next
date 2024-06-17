@@ -1,0 +1,98 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 416px;
+  width: 100%;
+  gap: 10px;
+  padding: 10px 10px;
+  background-color: var(--text-100-b);
+  border-radius: 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--bg-80-b);
+  }
+  .avatar {
+    border-radius: 100%;
+    max-width: 52px;
+    max-height: 52px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .senderInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    h1 {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+    }
+    h2 {
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 16px;
+      color: #979797;
+    }
+    h1,
+    h2 {
+      max-width: 310px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+.active {
+  background-color: var(--bg-80-b);
+}
+
+@media (max-width: 924px) {
+  .wrapper {
+    .senderInfo {
+      max-width: 240px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 280px;
+    .senderInfo {
+      max-width: 180px;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .wrapper {
+    max-width: none;
+    .senderInfo {
+      max-width: none;
+      h2,
+      h1 {
+        max-width: 290px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    .senderInfo {
+      max-width: 240px;
+      h1 {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    .senderInfo {
+      max-width: 200px;
+    }
+  }
+}

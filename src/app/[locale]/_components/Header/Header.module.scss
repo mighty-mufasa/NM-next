@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+  width: 100%;
+  margin-top: 30px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+
+    .rightItems {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .coloredBtn {
+        background: linear-gradient(152.48deg,rgb(137, 198, 255) -36.244%,rgb(54, 51, 208) 71.781%);
+      }
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}
